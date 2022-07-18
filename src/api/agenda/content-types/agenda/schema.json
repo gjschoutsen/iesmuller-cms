@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "agendas",
+  "info": {
+    "singularName": "agenda",
+    "pluralName": "agendas",
+    "displayName": "Agenda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "omschrijving": {
+      "type": "text",
+      "required": true
+    },
+    "datum": {
+      "type": "datetime",
+      "required": true
+    }
+  }
+}

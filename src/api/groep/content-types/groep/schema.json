@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groepen",
+  "info": {
+    "singularName": "groep",
+    "pluralName": "groepen",
+    "displayName": "Groepen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "groepen": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
