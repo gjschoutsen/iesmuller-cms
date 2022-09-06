@@ -4,16 +4,34 @@
   "info": {
     "singularName": "groep",
     "pluralName": "groepen",
-    "displayName": "Groepen"
+    "displayName": "Groepen",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "groepen": {
-      "type": "richtext",
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "titel": {
+      "type": "string",
       "required": true
+    },
+    "textp1": {
+      "type": "text"
+    },
+    "textp2": {
+      "type": "text"
+    },
+    "artists": {
+      "type": "string"
     }
   }
 }

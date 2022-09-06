@@ -4,32 +4,66 @@
   "info": {
     "singularName": "text",
     "pluralName": "texts",
-    "displayName": "text"
+    "displayName": "text",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Bio": {
+    "biop1": {
       "type": "text",
       "required": true
     },
-    "Lessen": {
+    "biop2": {
       "type": "text",
       "required": true
     },
-    "Workshops": {
+    "lessenp1": {
       "type": "text",
       "required": true
     },
-    "Studio": {
+    "lessenp2": {
       "type": "text",
       "required": true
     },
-    "Groepen": {
+    "studiop1": {
       "type": "text",
       "required": true
+    },
+    "studiop2": {
+      "type": "text"
+    },
+    "locatie": {
+      "type": "string"
+    },
+    "losseles": {
+      "type": "integer"
+    },
+    "vijflessen": {
+      "type": "integer"
+    },
+    "tienlessen": {
+      "type": "integer"
+    },
+    "workshoptitel1": {
+      "type": "string"
+    },
+    "workshoptext1": {
+      "type": "text"
+    },
+    "workshoptitel2": {
+      "type": "string"
+    },
+    "workshoptext2": {
+      "type": "text"
+    },
+    "workshoptitel3": {
+      "type": "string"
+    },
+    "workshoptext3": {
+      "type": "text"
     }
   }
 }
