@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "groepen_engels",
+  "info": {
+    "singularName": "groep-engels",
+    "pluralName": "groepen-engels",
+    "displayName": "Groepen Engels"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titel": {
+      "type": "string"
+    },
+    "textp1": {
+      "type": "text"
+    },
+    "textp2": {
+      "type": "text"
+    },
+    "artist1": {
+      "type": "string"
+    },
+    "artist2": {
+      "type": "string"
+    }
+  }
+}
