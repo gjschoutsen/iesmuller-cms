@@ -30,7 +30,10 @@
     "textp2": {
       "type": "text"
     },
-    "artists": {
+    "artist1": {
+      "type": "string"
+    },
+    "artist2": {
       "type": "string"
     }
   }

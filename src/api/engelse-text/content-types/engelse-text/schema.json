@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "texts",
+  "collectionName": "engelse_texts",
   "info": {
-    "singularName": "text",
-    "pluralName": "texts",
-    "displayName": "text",
+    "singularName": "engelse-text",
+    "pluralName": "engelse-texts",
+    "displayName": "Engelse Text",
     "description": ""
   },
   "options": {
@@ -13,24 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "biop1": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "biop2": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "lessenp1": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "lessenp2": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "studiop1": {
-      "type": "text",
-      "required": true
+      "type": "text"
     },
     "studiop2": {
       "type": "text"
